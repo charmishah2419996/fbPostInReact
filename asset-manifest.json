@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fbPostInReact/static/css/main.77e144f6.chunk.css",
+    "main.js": "/fbPostInReact/static/js/main.4ee8431f.chunk.js",
+    "main.js.map": "/fbPostInReact/static/js/main.4ee8431f.chunk.js.map",
+    "runtime-main.js": "/fbPostInReact/static/js/runtime-main.be29ff51.js",
+    "runtime-main.js.map": "/fbPostInReact/static/js/runtime-main.be29ff51.js.map",
+    "static/css/2.4be38407.chunk.css": "/fbPostInReact/static/css/2.4be38407.chunk.css",
+    "static/js/2.e6e47b6a.chunk.js": "/fbPostInReact/static/js/2.e6e47b6a.chunk.js",
+    "static/js/2.e6e47b6a.chunk.js.map": "/fbPostInReact/static/js/2.e6e47b6a.chunk.js.map",
+    "index.html": "/fbPostInReact/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/fbPostInReact/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.77e144f6.chunk.css.map": "/fbPostInReact/static/css/main.77e144f6.chunk.css.map",
+    "static/js/2.e6e47b6a.chunk.js.LICENSE.txt": "/fbPostInReact/static/js/2.e6e47b6a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be29ff51.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.e6e47b6a.chunk.js",
+    "static/css/main.77e144f6.chunk.css",
+    "static/js/main.4ee8431f.chunk.js"
+  ]
+}

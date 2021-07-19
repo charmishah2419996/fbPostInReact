@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import gifData from "../features/SearchModule/reducers";
+import postData from "../features/chatbox/reducers";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    gifData:gifData,
+    postData:postData
   },
 });

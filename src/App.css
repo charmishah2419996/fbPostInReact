@@ -1,39 +1,73 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.postText{
+  border: none;
+  width: 500px;
+  height: 100px;
+  margin: 30px 0;
+  resize: none
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+*:focus {
+  outline: 0 !important;
 }
-
-.App-header {
-  min-height: 100vh;
+.btn{
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.gifSearchBtn
+{
+  padding: 10px 50px;
+  border-radius: 13px; 
+}
+.postBtn{
+  background: blue;
+  color: white;
+  border-radius: 0px;
+  width: 500px;
+  padding: 10px;
+   
+}
+.createPostWrapper{
+  padding: 10px 0px 0px 20px;
+}
+.postedWrapper{
+  padding: 10px 10px 0px 0px;
+}
+.createPostContainer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.postedText{
+  margin: 10px 0;
+  font-family: cursive;
+
+}
+.postedGIF{
+  width: 100px;
+  height: 100px;
+
+}
+.gifContainer{
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  z-index: 9999;
+  padding: 10px;
+}
+.searchGifText{
+  width: 392px;
+  padding: 15px 10px;
+  background-color: #80808014;
+  border: none;
+  margin: 10px 0;
+  
+}
+.Gif{
+  width: 400px;
+  height: 200px;
+  margin: 10px 0; 
+  cursor: pointer;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
